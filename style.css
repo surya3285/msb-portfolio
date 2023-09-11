@@ -246,7 +246,7 @@ main hr {
 }
 
 .about {
-    min-height: 70vh;
+    min-height: 80vh;
 }
 
 .about-section {
@@ -298,3 +298,132 @@ main hr {
     color: #6b9678a3;
     word-spacing: 5px;
 }
+
+/* Experience  */
+.experience {
+    min-height: 80vh;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.experience-sub-title {
+    color: #d1c9c5ac;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.experience-details-container {
+    width: 40vw;
+    border: #689775 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article-container svg {
+    color: #81291f;
+    width: 30px;
+    height: 30px;
+}
+
+.article-container h3 {
+    color: #689775;
+}
+
+.article-container p {
+    color: grey;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* Projects */
+
+.projects {
+    min-height: 55vw;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.color-container {
+    border: 2px solid #689775;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+    opacity: 0.7;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 90%;
+}
+
+.project-btn1 {
+    background: none;
+    border: 2px solid #689775;
+    color: #689775;
+}
+
+.project-btn1:hover {
+    border: 2px solid #689775;
+    color: #d1c9c5;
+    background-color: #689775
+}
+
+.project-btn2 {
+    background-color: #81291f;
+    border: 2px solid #81291f;
+    color: #d1c9c5;
+}
+
+.project-btn2:hover {
+    background: none;
+    color: #81291f;
+}
+
+/* Contact */
