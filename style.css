@@ -10,6 +10,10 @@ body {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -48,6 +52,7 @@ a, .btn {
     display: flex;
     justify-content: center;
 }
+
 
 #desktop-nav ul li {
     list-style: none;
@@ -175,7 +180,7 @@ main hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 150px 0;
+    margin: 50px 0;
 }
 
 .profile-section>div {
@@ -189,10 +194,14 @@ main hr {
 
 .rightsection img {
     margin-top: 50px;
-    max-width: 500px;
-    opacity: 0.8;
+    width: 500px;
+    opacity: 0.1;
+
 }
 
+.profile-btns a {
+    text-decoration: none;
+}
 
 #dowload-cv-btn {
     display: inline;
@@ -263,6 +272,16 @@ main hr {
     opacity: 0.8;
 }
 
+.about-side-head {
+    flex-wrap: wrap;
+    color: #81291f;
+    font-size: 1000%;
+    line-height: 120px;
+    padding: 0 50px;
+    text-align: left;
+    justify-content: center;
+}
+
 .about-rightsection {
     justify-content: center;
     flex-direction: column;
@@ -306,13 +325,14 @@ main hr {
 
 /* Experience  */
 .experience {
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .experience-container {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    height: 40vh;
 }
 
 .experience-sub-title {
